@@ -1,0 +1,26 @@
+{
+  "name": "angry-taco",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "csv-write-stream": "^2.0.0",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "knex": "^0.11.10",
+    "morgan": "~1.7.0",
+    "pg": "^6.1.0",
+    "pg-promise": "^5.3.4",
+    "rel": "0.0.3",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "serve-favicon": "~2.3.0"
+  }
+}
