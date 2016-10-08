@@ -1,0 +1,14 @@
+extends layout.pug
+
+block title
+  title Main Page for BookStore
+
+block  content
+    h1 List of first five books from DB:
+
+    each book in books
+      li= book.id
+      a(href='/book/' + book.id)
+        li= book.title
+      li= book.year
+      hr
